@@ -1,1 +1,101 @@
-body {background: #CCFFFF} 
+body {
+  background: #CCFFFF;
+  margin-left: 10%;
+  margin-right: 10%;
+} 
+
+h1 {
+  text-align: center;
+  display: block;
+  border-bottom: solid;
+  padding: 10px;
+  background-image: url(headerbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin-top: -10px;
+  font-family: "Courier New";
+}
+
+.main_page_h {
+  margin-left: 20px;
+}
+
+#girl {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px)
+{ #girls
+  {
+    width: 50%;
+    float: left;
+    margin: 0 10px 5px 0;
+    }
+}
+
+#survey {
+  display: block;
+  padding: 30px;
+}
+
+form {
+  border: none;
+}
+
+button {
+  margin: 30px 0px 0px 0px;
+}
+
+.option {
+  display: block;
+  position: relative;
+  margin: 10px 0px 10px 20px;
+  width: 600px;
+}
+
+#photo_credit {
+  font-size: 12px;
+  padding: 0px;
+  float: right;
+}
+
+#survey_button_main {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Courier New";
+}
+
+a {
+  border-radius: 25px;
+  padding: 5px;
+  text-decoration: none;
+  color: #000066;
+}
+
+a:link {
+    background-color: none;
+}
+
+a:visited {
+    background-color: #FF99FF;
+    color: salmon;
+}
+
+a:hover {
+    background-color: #99FFFF;
+    color: 
+}
+
+#thank_you {
+  background-image: url(thankyou.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: none;
+  display: block;
+  vertical-align: middle;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
