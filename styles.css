@@ -1,1 +1,38 @@
-body {background: #CCFFFF} 
+body {
+  background: #CCFFFF;
+  margin-left: 10%;
+  margin-right: 10%;
+} 
+
+h1 {
+  text-align: center;
+  display: block;
+  border-bottom: solid;
+  padding: 10px;
+  background-image: url(headerbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin-top: -10px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+#girl {
+display: block;
+width: 100%;
+}
+
+@media only screen and (max-width: 800px)
+{ #girl
+  {
+        width: 30%;
+        
+    }
+}
