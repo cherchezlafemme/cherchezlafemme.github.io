@@ -14,6 +14,7 @@ h1 {
   background-size: 100%;
   background-position: center;
   margin-top: -10px;
+  font-family: "Courier New";
 }
 
 .main_page_h {
@@ -63,7 +64,7 @@ button {
 #survey_button_main {
   text-align: center;
   font-size: 40px;
-  font-family: 
+  font-family: "Courier New";
 }
 
 a {
@@ -79,8 +80,7 @@ a:link {
 
 a:visited {
     background-color: #FF99FF;
-    color:;
-
+    color: salmon;
 }
 
 a:hover {
