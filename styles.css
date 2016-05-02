@@ -21,13 +21,13 @@ h1 {
   margin-left: 20px;
 }
 
-#girl {
+.girls {
   display: block;
   width: 100%;
 }
 
 @media only screen and (max-width: 800px)
-{ #girls
+{ .girls
   {
     width: 50%;
     float: left;
