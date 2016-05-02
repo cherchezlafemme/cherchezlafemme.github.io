@@ -95,3 +95,7 @@ a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+table, td, th { 
+  border: 1px solid gray 
+}
