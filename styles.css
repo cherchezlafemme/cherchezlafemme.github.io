@@ -74,18 +74,14 @@ a {
   color: #000066;
 }
 
-a:link {
-    background-color: none;
-}
-
 a:visited {
     background-color: #FF99FF;
-    color: salmon;
+    color: #FF6666;
 }
 
 a:hover {
     background-color: #99FFFF;
-    color: 
+    color: #99FF33; 
 }
 
 #thank_you {
